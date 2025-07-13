@@ -22,6 +22,12 @@ if st.button("Gunakan Studi Kasus Toko 'Smart Office'"):
     H = 5000.0       # Biaya penyimpanan per unit per tahun (Rp)
     st.success("Data studi kasus berhasil dimasukkan.")
 
+# Input manual pengguna (jika tidak pakai studi kasus)
+st.subheader("Masukkan Data Secara Manual")
+D = st.number_input("Permintaan tahunan (unit)", min_value=1, value=D, step=1)
+S = st.number_input("Biaya pemesanan per pesanan (Rp)", min_value=0.0, value=S, step=100.0)
+H = st.number_input("Biaya penyimpanan per unit per tahun (Rp)", min_value=0.0, value=H, step=100.0)
+
 # Tombol untuk menghitung EOQ
 if st.button("Hitung EOQ"):
     if D > 0 and S > 0 and H > 0:
