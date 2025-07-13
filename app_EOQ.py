@@ -73,7 +73,7 @@ case_studies = {
     "Manual": {'D': 1, 'S': 0.0, 'H': 0.0},
     "Toko Alat Tulis Smart Office": {'D': 5000, 'S': 200000.0, 'H': 5000.0},
     "Supermarket": {'D': 12000, 'S': 150000.0, 'H': 3000.0},
-    "Pabrik Elektronik": {'D': 2500, 'S': 350000.0, 'H': 8000.0
+    "Pabrik Elektronik": {'D': 2500, 'S': 350000.0, 'H': 8000.0}
 }
 
 # Input section in two columns
