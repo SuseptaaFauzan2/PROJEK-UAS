@@ -16,7 +16,7 @@ S = 0.0
 H = 0.0
 
 # Studi Kasus: Toko Alat Tulis Smart Office
-if st.button("Gunakan Studi Kasus Toko 'Smart Office'"):
+if st.button("Toko Alat Tulis"):
     D = 5000         # Permintaan tahunan
     S = 200000.0     # Biaya pemesanan per pesanan (Rp)
     H = 5000.0       # Biaya penyimpanan per unit per tahun (Rp)
