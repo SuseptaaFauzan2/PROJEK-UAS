@@ -89,9 +89,10 @@ with col1:
             key="case_study"
         )
         
-        if selected_case != "Manual":
+        if selected_case != "Manual" and st.session_state.case_study != selected_case:
             st.session_state.input_values = case_studies[selected_case]
             st.success(f"Data studi kasus '{selected_case}' berhasil dimasukkan.")
+            st.session_state.case_study = selected_case
 
         # Manual input
         st.session_state.input_values['D'] = st.number_input(
