@@ -188,4 +188,4 @@ with col2:
         st.error("⚠️ Mohon lengkapi semua input dengan nilai lebih dari 0")
         
 # 👣 Footer
-st.markdown('<div class="footer"> TUGAS ASWA SEPTIAN</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer"> Tugas Susepta Fauzan</div>', unsafe_allow_html=True)
