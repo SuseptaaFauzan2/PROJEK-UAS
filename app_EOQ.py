@@ -49,7 +49,6 @@ st.markdown("""
 
 # Sidebar for additional options
 with st.sidebar:
-    st.image("https://placehold.co/300x100?text=EOQ+Calculator&font=roboto", width=300)
     st.markdown("### Tentang EOQ")
     st.markdown("""
     Economic Order Quantity (EOQ) adalah model inventaris yang menentukan jumlah pesanan optimal
