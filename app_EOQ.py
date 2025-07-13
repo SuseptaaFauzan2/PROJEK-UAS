@@ -70,9 +70,10 @@ if 'input_values' not in st.session_state:
 
 # Case studies
 case_studies = {
-    "Pilih Studi Kasus": {'D': 1, 'S': 0.0, 'H': 0.0},
+    "Manual": {'D': 1, 'S': 0.0, 'H': 0.0},
     "Toko Alat Tulis Smart Office": {'D': 5000, 'S': 200000.0, 'H': 5000.0},
     "Supermarket": {'D': 12000, 'S': 150000.0, 'H': 3000.0},
+    "Pabrik Elektronik": {'D': 2500, 'S': 350000.0, 'H': 8000.0
 }
 
 # Input section in two columns
@@ -88,7 +89,7 @@ with col1:
             key="case_study"
         )
         
-        if selected_case != "Pilih Studi Kasus":
+        if selected_case != "Manual":
             st.session_state.input_values = case_studies[selected_case]
             st.success(f"Data studi kasus '{selected_case}' berhasil dimasukkan.")
 
