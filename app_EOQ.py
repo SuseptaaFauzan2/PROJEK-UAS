@@ -11,7 +11,7 @@ Silakan masukkan data berikut atau gunakan studi kasus yang tersedia.
 """)
 
 # Inisialisasi default nilai input
-D = 0
+D = 1
 S = 0.0
 H = 0.0
 
